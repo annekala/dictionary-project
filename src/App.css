@@ -1,0 +1,13 @@
+.App {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.App-logo {
+  width: 80px;
+}
+.App-header {
+  font-weight: bolder;
+  font-size: 60px;
+}
