@@ -1,17 +1,24 @@
 import logo from "./logo.png";
+import Search from "./Search";
 import "./App.css";
 
 export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        {" "}
-        <span>
+      <div className="container">
+        <header className="App-header">
           {" "}
-          <img src={logo} className="App-logo" alt="logo" />{" "}
-        </span>{" "}
-        Dictionary
-      </header>
+          <span>
+            {" "}
+            <img src={logo} className="App-logo" alt="logo" />{" "}
+          </span>{" "}
+          Dictionary
+        </header>
+        <main>
+          <Search />
+        </main>
+        <footer className="text-center"> Coded by Anne Kala</footer>
+      </div>
     </div>
   );
 }
