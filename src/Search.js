@@ -1,12 +1,15 @@
 import React, { useState } from "react";
 import axios from "axios";
+import Results from "./Results";
 import "./Search.css";
 
 export default function Search() {
   let [keyword, setKeyword] = useState("");
+  let [words, setWords] = useState(null);
 
   function handleResponse(response) {
-    console.log(response.data[0]);
+    setWords(response.data[0]);
+    console.log(response.data[0].meanings[0].definitions[0].definition);
   }
   function search(event) {
     event.preventDefault();
@@ -29,6 +32,7 @@ export default function Search() {
           onChange={handleKeyword}
         ></input>{" "}
       </form>
+      <Results definition={words} />
     </div>
   );
 }
