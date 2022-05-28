@@ -7,7 +7,7 @@ export default function Results(props) {
       <div className="Results">
         {" "}
         <h2> {props.definition.word}</h2>
-        {props.definition.meanings.map(function (meaning, index) {
+        {props.definition.meaning.map(function (meaning, index) {
           return (
             <div key={index}>
               <Meaning meaning={meaning} />{" "}
