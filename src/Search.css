@@ -1,12 +1,17 @@
-.Search section {
-  background-color: white;
+.language h1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.language section {
+  background: white;
   padding: 30px;
-  border-radius: 16px;
+  border-radius: 6px;
   margin: 20px 0;
-  box-shadow: 0 10px 10px rgb(0, 0, 0 /10%);
+  box-shadow: 0 10px 20px rgb(0 0 0 /10%);
 }
 
-.Search input {
+.language input {
   width: 100%;
   padding: 6px 4px;
   border-radius: 6px;
@@ -14,7 +19,7 @@
   border: 1px solid #ddd;
 }
 
-.Search hint {
+.language .hint {
   font-size: 11px;
   margin-top: 5px;
 }

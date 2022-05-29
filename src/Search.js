@@ -33,13 +33,14 @@ export default function Search(props) {
     return (
       <div className="language">
         <section>
-          {" "}
+          <h1> What word would you like to look up?</h1>{" "}
           <form onSubmit={handleSubmit}>
             {" "}
             <input
               type="search"
               autoFocus={true}
               onChange={handleKeyword}
+              defaultValue={props.defaultKeyword}
             ></input>{" "}
           </form>
           <div className="hint">Suggested words: Sunset, Hello, Book, Love</div>
