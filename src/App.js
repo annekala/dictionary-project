@@ -15,7 +15,7 @@ export default function App() {
           Dictionary
         </header>
         <main>
-          <Search />
+          <Search defaultKeyword="book" />
         </main>
         <footer className="text-center"> Coded by Anne Kala</footer>
       </div>
