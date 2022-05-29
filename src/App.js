@@ -8,11 +8,9 @@ export default function App() {
       <div className="container">
         <header className="App-header">
           {" "}
-          <span>
-            {" "}
-            <img src={logo} className="App-logo" alt="logo" />{" "}
-          </span>{" "}
-          Dictionary
+          <img src={logo} className="App-logo" alt="logo" />{" "}
+          <span className="Dictionary"> DICO - APP </span>{" "}
+          <img src={logo} className="App-logo" alt="logo" />
         </header>
         <main>
           <Search defaultKeyword="Book" />

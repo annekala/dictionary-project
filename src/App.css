@@ -1,13 +1,31 @@
+body {
+  background: #f9f8fe;
+}
+
+a {
+  color: #9670f4;
+}
 .App {
-  display: block;
+  max-width: 960px;
   margin: 0 auto;
-  text-align: center;
+}
+.Dictionary {
+  font-size: 80px;
+  margin: 0 auto;
 }
 
 .App-logo {
   width: 80px;
+  margin: 0 auto;
+  height: auto;
 }
 .App-header {
-  font-weight: bolder;
-  font-size: 60px;
+  margin: 30px 0;
+  display: block;
+  text-align: center;
+}
+
+.App footer {
+  text-align: center;
+  margin: 30px 0;
 }
