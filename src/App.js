@@ -18,17 +18,20 @@ export default function App() {
           {" "}
           This project was coded by Anne Kala as is{" "}
           <a
-            href="https://github.com/annekala/weather-react"
+            href="https://github.com/annekala/dictionary-project"
             target="_blank"
             rel="noreferrer"
-          ></a>
-          open-sourced on GitHub and{" "}
+          >
+            open-sourced on GitHub{" "}
+          </a>{" "}
+          and
           <a
-            href="https://github.com/annekala/weather-react"
+            href="https://elaborate-cuchufli-5860fa.netlify.app"
             target="_blank"
             rel="noreferrer"
-          ></a>
-          hosted on Netlify
+          >
+            hosted on Netlify
+          </a>
         </footer>
       </div>
     </div>
