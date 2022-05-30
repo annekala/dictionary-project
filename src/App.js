@@ -14,7 +14,6 @@ export default function App() {
           This project was coded by Anne Kala as is{" "}
           <a
             href="https://github.com/annekala/dictionary-project"
-            target="_blank"
             rel="noreferrer"
           >
             open-sourced on GitHub{" "}
@@ -22,7 +21,6 @@ export default function App() {
           and{" "}
           <a
             href="https://elaborate-cuchufli-5860fa.netlify.app"
-            target="_blank"
             rel="noreferrer"
           >
             hosted on Netlify
