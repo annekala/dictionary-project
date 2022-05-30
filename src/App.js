@@ -1,4 +1,3 @@
-import logo from "./logo.png";
 import Search from "./Search";
 import "./App.css";
 
@@ -6,11 +5,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">
-          {" "}
-          <img src={logo} className="App=logo" alt="logo" width="100px" />
-          <span className="Dictionary"> My Dico-App </span> <br />
-        </header>
+        <header className="App-header"> ❖ Dico-App ❖ </header>
         <main>
           <Search defaultKeyword="Book" />
         </main>
@@ -24,7 +19,7 @@ export default function App() {
           >
             open-sourced on GitHub{" "}
           </a>{" "}
-          and
+          and{" "}
           <a
             href="https://elaborate-cuchufli-5860fa.netlify.app"
             target="_blank"
