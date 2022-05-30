@@ -8,14 +8,28 @@ export default function App() {
       <div className="container">
         <header className="App-header">
           {" "}
-          <img src={logo} className="App-logo" alt="logo" />{" "}
-          <span className="Dictionary"> DICO - APP </span>{" "}
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={logo} className="App=logo" alt="logo" width="100px" />
+          <span className="Dictionary"> My Dico-App </span> <br />
         </header>
         <main>
           <Search defaultKeyword="Book" />
         </main>
-        <footer className="text-center"> Coded by Anne Kala</footer>
+        <footer className="text-center">
+          {" "}
+          This project was coded by Anne Kala as is{" "}
+          <a
+            href="https://github.com/annekala/weather-react"
+            target="_blank"
+            rel="noreferrer"
+          ></a>
+          open-sourced on GitHub and{" "}
+          <a
+            href="https://github.com/annekala/weather-react"
+            target="_blank"
+            rel="noreferrer"
+          ></a>
+          hosted on Netlify
+        </footer>
       </div>
     </div>
   );

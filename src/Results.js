@@ -10,13 +10,17 @@ export default function Results(props) {
         <section>
           {" "}
           <h2> {props.definition.word}</h2>
-          {props.definition.phonetics.map(function (phonetic, index) {
-            return (
-              <div key={index}>
-                <Phonetic phonetic={phonetic} />
-              </div>
-            );
-          })}
+          {props.definition.phonetics
+            .filter(function (phonetic) {
+              return phonetic.audio;
+            })
+            .map(function (phonetic, index) {
+              return (
+                <div key={index}>
+                  <Phonetic phonetic={phonetic} />
+                </div>
+              );
+            })}
         </section>
         {props.definition.meanings.map(function (meaning, index) {
           return (

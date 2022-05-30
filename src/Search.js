@@ -44,7 +44,7 @@ export default function Search(props) {
     return (
       <div className="language">
         <section>
-          <h1> What word would you like to look up?</h1>{" "}
+          <h1> What word do you want to look up?</h1>{" "}
           <form onSubmit={handleSubmit}>
             {" "}
             <input
