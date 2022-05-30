@@ -23,7 +23,7 @@ export default function App() {
             href="https://elaborate-cuchufli-5860fa.netlify.app"
             rel="noreferrer"
           >
-            hosted on Netlify
+            hosted on Netlify{" "}
           </a>
         </footer>
       </div>
